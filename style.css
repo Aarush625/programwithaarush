@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*:focus{
+    outline: none;
+}
+nav{
+    position: fixed;
+    z-index: 1;
+    height: 12vh;
+    width: 100vw;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: blur(1px);
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 57vw;
+}
+#list-item{
+    color: whitesmoke;
+    text-shadow: 2px 2px 10px black;
+}
+#list-item:hover{
+    transition: 1s;
+    color: white;
+    text-shadow: 3px 3px 10px white;
+    cursor: pointer;
+}
+li{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    text-shadow: 2px 2px 10px black;
+}
+a:hover{
+    transition: 1s;
+    color: white;
+    text-shadow: 3px 3px 10px white;
+}
+#icon{
+    height: 10vh;
+    margin: 10px;
+    /* border: 2px solid black; */
+    /* border-radius: 100px */
+    cursor: pointer;
+}
+.main{
+    background: url("banner1.jpg") no-repeat;
+    background-size: 100vw;
+    height: 100vh;
+    border-bottom: 3px solid black;
+}
+.bannercontent{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#bannerHeading{
+    margin-top: 150px;
+    font-size: 55px;
+    text-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+#bannerPara{
+    position: absolute;
+    width: 50vw;
+    text-align: center;
+    margin-top: 240px;
+    text-shadow: 2px 2px 10px black;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btnn{
+    display: block;
+    height: 7vh;
+    width: 6vw;
+    background-color: whitesmoke;
+    font-size: 15px;
+    border: none;
+    border-radius: 150px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    /* color: white; */
+}
+#btn1{
+    top: 60vh;
+    left: 40vw;
+}
+#btn2{
+    top: 60vh;
+    right: 40vw;
+}
+.btnn:hover{
+    /* font-size: 16px; */
+    transition: .8s;
+    box-shadow: 2px 2px 20px black;
+    background-color: black;
+    color: white;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    /* width: 100vw; */
+    border-bottom: 3px solid black;
+}
+.cards{
+    margin: 50px;
+}
+.courses{
+    border-bottom: 3px solid black;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* width: 100vw; */
+    background-color: whitesmoke;
+}
+.formInput{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    /* margin: 10px; */
+    border: 5px solid black;
+}
+.btn-primary{
+    margin: 10px;
+}
+footer{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    background-color: bisque;
+    border-top: 3px solid black;
+    cursor: pointer;
+}
